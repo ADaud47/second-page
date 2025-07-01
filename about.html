@@ -6,56 +6,69 @@
   <meta name="author" content="Abdulah Daud">
   <meta name="description" content="About Abdulah Daud - Personal Page">
   <title>About Me</title>
- <link rel="stylesheet" href="about.css" type="text/css">
+  <link rel="stylesheet" href="about.css" type="text/css">
   <link rel="icon" href="me.ico" type="image/png">
-
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet"> <!-- **ADDED Google Font for modern typography** -->
 </head>
 
 <body>
-  <h1>About Me</h1>
-  <p>Welcome to my personal page. Here you'll learn more about my background, goals, and identity.</p>
-<header>
- <nav>
-    <a href="index.html">Home</a> |
-    <a href="about.html">About Me</a>
-  </nav>
-</header>
+
+  <header> <!-- **MOVED header to top inside body** -->
+    <h1>About Me</h1>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="about.html">About Me</a>
+    </nav>
+  </header>
+
+  <p>Welcome to my personal page. Here you'll learn more about my background, goals, and identity.</p> <!-- **ADDED intro paragraph for context** -->
+
+  <main> <!-- **WRAPPED main content in <main> for semantic clarity** -->
+
+    <h3>Where am I from?</h3>
+    <p>I am a British-born Somali.</p>
+
+    <h3>Where was I born?</h3>
+    <p>I was born in Milton Keynes and was raised in Birmingham.</p>
+
+    <h3>More about me</h3>
+    <ul>
+      <li>I have many siblings.</li>
+      <li>I just finished university.</li>
+    </ul>
+
+    <h3>What are my dreams and goals Insha'Allah?</h3>
+    <ul>
+      <li>To become a full stack programmer and web developer.</li>
+      <li>To get married.</li>
+      <li>To start my own online business and make a minimum of £10k per month.</li>
+    </ul>
+
+    <h3>My Coding Goals</h3> <!-- **ADDED Goals section for portfolio clarity** -->
+    <ul>
+      <li>Become a full stack web developer.</li>
+      <li>Learn TypeScript and Java.</li>
+      <li>Build impactful Islamic educational tools.</li>
+    </ul>
+
+    <h3>My Flags</h3>
+    <img src="somalia-flag.png" alt="Somali Flag" width="100">
+    <img src="uk-flag.png" alt="British Flag" width="100">
+
+    <p style="text-align: center; font-size: 0.8rem;">Written by Abdulah Daud</p> <!-- **ADDED signature at the end** -->
+
+  </main>
 
   <hr>
-
-  <h3>Where am I from?</h3>
-  <p>I am a Brit of Somali origin</p>
-
-  <h3>Where was I born?</h3>
-  <p>I was born in Milton Keynes and was raised in Birmingham</p>
-
-  <h3>More about me</h3>
-  <ul>
-    <li>I have many siblings.</li>
-    <li>I just finished university.</li>
-  </ul>
-
-  <h3>What are my dreams and goals Insha'Allah?</h3>
-  <ul>
-    <li>To become a full stack programmer and web developer.</li>
-    <li>To get married.</li>
-    <li>To start my own online business and make a minimum of £10k per month.</li>
-  </ul>
-
-  <h3>My Flags</h3>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Flag_of_Somalia.svg" alt="Somali Flag" width="100">
-  <img src="https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg" alt="British Flag" width="100">
-
-
-
-  <hr>
-
-  <!-- Test commit: Updated on July 1st -->
-
 
   <footer>
-    <p>&copy; 2025 Abdulah Daud | <a href="index.html">Back to Home</a></p>
+    &copy; 2025 Abdulah Daud | 
+    <a href="about.html">About Me</a> |
+    <a href="#">LinkedIn</a> |
+    <a href="#">GitHub</a>
   </footer>
+
 </body>
 
 </html>
+

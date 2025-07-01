@@ -6,12 +6,13 @@
   <meta name="author" content="Abdulah Daud">
   <meta name="description" content="Islamic learning and resources page">
   <title>Islamic Page</title>
- <link rel="stylesheet" href="islamic.css" type="text/css">
+  <link rel="stylesheet" href="islamic.css" type="text/css">
   <link rel="icon" href="islam.ico" type="image/png">
-
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body id="top"> <!-- **ADDED id="top" for Back to Top links** -->
+
   <header>
     <h1>Islamic Knowledge Hub</h1>
     <nav>
@@ -20,58 +21,105 @@
     </nav>
   </header>
 
+  <p style="text-align: center; font-style: italic;">Welcome to the Islamic Knowledge Hub – your daily reflections, resources, and reminders.</p>
 
-  <h2>Qur'an Reflection</h2>
-  <blockquote>
-    Indeed, in the remembrance of Allah do hearts find rest.
-    <cite>– Surah Ra’d 13:28</cite>
-  </blockquote>
+  <main>
+    <!-- **ADDED Table of Contents** -->
+    <nav id="toc">
+      <h2>Table of Contents</h2>
+      <ul>
+        <li><a href="#pillars-islam">5 Pillars of Islam</a></li>
+        <li><a href="#pillars-iman">6 Pillars of Iman</a></li>
+        <li><a href="#tawheed">Tawheed</a></li>
+        <li><a href="#sahaba">The Sahaba</a></li>
+        <li><a href="#prophet">Prophet Muhammad ﷺ</a></li>
+      </ul>
+    </nav>
 
-  <h2>Daily Hadith</h2>
-  <blockquote>
-    The Prophet ﷺ said: “Whoever travels a path in search of knowledge, Allah will make easy for him a path to Paradise.”
-    <cite>– Muslim 2699</cite>
-  </blockquote>
+    <h2 id="pillars-islam">5 Pillars of Islam</h2>
+    <ol>
+      <li>Shahadah – Testimony of Faith</li>
+      <li>Salah – Prayer</li>
+      <li>Zakah – Charity</li>
+      <li>Sawm – Fasting Ramadan</li>
+      <li>Hajj – Pilgrimage to Makkah</li>
+    </ol>
 
-  <h2>Daily Dua</h2>
-  <p>اللهم إني أسألك العفو والعافية</p>
-  <p>O Allah, I ask You for pardon and well-being.</p>
+    <h2 id="pillars-iman">6 Pillars of Iman</h2>
+    <ol>
+      <li>Belief in Allah</li>
+      <li>Belief in Angels</li>
+      <li>Belief in Books</li>
+      <li>Belief in Messengers</li>
+      <li>Belief in the Last Day</li>
+      <li>Belief in Qadr (Divine Decree)</li>
+    </ol>
 
-  <h2>The Three Holy Places in Islam</h2>
+    <h2 id="tawheed">Tawheed</h2>
+    <p>Tawheed is the concept of the oneness of Allah in His Lordship, His Names and Attributes, and in worship.</p>
+    <ul>
+      <li>Tawheed ar-Ruboobiyyah (Lordship)</li>
+      <li>Tawheed al-Asma wa Sifat (Names & Attributes)</li>
+      <li>Tawheed al-Uloohiyyah (Worship)</li>
+    </ul>
 
-<section>
-  <h3>Makkah al-Mukarramah</h3>
-  <img src="makkah.jpg" alt="Masjid al-Haram in Makkah" width="300">
-  <p>Makkah is the holiest city in Islam, containing the Ka'bah towards which all Muslims pray.</p>
-</section>
+    <h2 id="sahaba">The Sahaba</h2>
+    <p>The Sahaba were the companions of Prophet Muhammad ﷺ who accepted Islam during his lifetime and supported him in his mission.</p>
+    <ul>
+      <li>Abu Bakr as-Siddiq (ra) – The first Caliph</li>
+      <li>Umar ibn al-Khattab (ra) – The second Caliph</li>
+      <li>Uthman ibn Affan (ra) – The third Caliph</li>
+      <li>Ali ibn Abi Talib (ra) – The fourth Caliph</li>
+    </ul>
 
-<section>
-  <h3>Al-Madinah al-Munawwarah</h3>
-  <img src="madinah.jpg" alt="Masjid an-Nabawi in Madinah" width="300">
-  <p>Madinah houses Masjid an-Nabawi and the blessed grave of the Prophet ﷺ.</p>
-</section>
+    <h2 id="prophet">Prophet Muhammad ﷺ</h2>
+    <p>Prophet Muhammad ﷺ was born in Makkah in 570 CE. He received revelation at age 40 and conveyed Islam for 23 years until his passing in Madinah in 632 CE.</p>
 
-<section>
-  <h3>Masjid al-Aqsa</h3>
-  <img src="aqsa.jpg" alt="Masjid al-Aqsa in Jerusalem" width="300">
-  <p>Masjid al-Aqsa in Jerusalem is the third holiest site, mentioned in Surah al-Isra.</p>
-</section>
+    <!-- **ADDED Back to Top links after each section (example shown)** -->
+    <p style="text-align: right;"><a href="#top">Back to Contents</a></p>
 
+    <!-- EXISTING CONTENT BELOW -->
 
-  <h2>Useful Islamic Resources</h2>
-  <ul>
-    <li><a href="https://quran.com" target="_blank">Quran.com</a></li>
-    <li><a href="https://sunnah.com" target="_blank">Sunnah.com</a></li>
-    <li><a href="https://islamqa.info" target="_blank">IslamQA</a></li>
-  </ul>
+    <h2>The Three Holy Places in Islam</h2>
+    <section>
+      <h3>Makkah al-Mukarramah</h3>
+      <img src="makkah.jpg" alt="Masjid al-Haram in Makkah" width="300">
+      <p>Makkah is the holiest city in Islam, containing the Ka'bah towards which all Muslims pray.</p>
+    </section>
+
+    <section>
+      <h3>Al-Madinah al-Munawwarah</h3>
+      <img src="madinah.jpg" alt="Masjid an-Nabawi in Madinah" width="300">
+      <p>Madinah houses Masjid an-Nabawi and the blessed grave of the Prophet ﷺ.</p>
+    </section>
+
+    <section>
+      <h3>Masjid al-Aqsa</h3>
+      <img src="aqsa.jpg" alt="Masjid al-Aqsa in Jerusalem" width="300">
+      <p>Masjid al-Aqsa in Jerusalem is the third holiest site, mentioned in Surah al-Isra.</p>
+    </section>
+
+    <h2>Useful Islamic Resources</h2>
+    <ul>
+      <li><a href="https://quran.com" target="_blank">Quran.com</a></li>
+      <li><a href="https://sunnah.com" target="_blank">Sunnah.com</a></li>
+      <li><a href="https://islamqa.info" target="_blank">IslamQA</a></li>
+    </ul>
+
+  </main>
+
+  <p style="text-align: center; font-size: 0.8rem;">Written by Abdulah Daud</p>
 
   <hr>
 
-<footer>
-  &copy; 2025 Abdulah Daud | <a href="about.html">About Me</a>
-</footer>
-
+  <footer>
+    &copy; 2025 Abdulah Daud | 
+    <a href="about.html">About Me</a> |
+    <a href="#">LinkedIn</a> |
+    <a href="#">GitHub</a>
+  </footer>
 
 </body>
 
 </html>
+
