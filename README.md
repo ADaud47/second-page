@@ -1,6 +1,6 @@
 # 🕌 **second-page**
 
-A personal Islamic wiki-style webpage project built with HTML and CSS, aiming to document and teach Islamic knowledge in a clean, organised format.
+A personal Islamic wiki-style webpage project built with HTML and CSS, aiming to document and teach Islamic knowledge and history in a clean, organised format.
 
 ---
 
@@ -70,7 +70,7 @@ git clone https://github.com/ADaud47/second-page.git
 
 ## 🤲 **Vision**
 
-To create a **free, clean, and accessible online knowledge hub** for Muslims worldwide, combining traditional learning with modern web technologies as my skills grow.
+To create a **free, clean,accessible and interactive webapp of online knowledge hub** for everyone worldwide, combining traditional learning with modern web technologies as my skills grow.
 
 ---
 
