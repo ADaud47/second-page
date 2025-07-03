@@ -34,7 +34,7 @@ This repository contains:
 
 * **HTML5**
 * **CSS3**
-* *(Planned in the upcoming months: JavaScript, TypeScript, Tailwind, Java)*
+* *(Planned in the upcoming months: JavaScript, TypeScript, Tailwind)*
 
 ---
 
