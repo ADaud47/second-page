@@ -22,7 +22,6 @@ This repository contains:
 
 ✅ **Long-term goals:**
 
-* Add **more Islamic topics and resources** (Qur’an ayat, hadith, fiqh summaries).
 * Integrate **JavaScript** for interactive features (quizzes, flashcards).
 * Learn and implement **TypeScript** for type safety and scalable codebases.
 * Use **Tailwind CSS** to build fast, responsive modern designs efficiently.
