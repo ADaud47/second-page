@@ -72,11 +72,7 @@ git clone https://github.com/ADaud47/second-page.git
 
 To create a **free, clean,accessible and interactive webapp of online knowledge hub** for everyone worldwide, combining traditional learning with modern web technologies as my skills grow.
 
----
 
-## 🙏 **Credits**
-
-Built with guidance from my personal coding studies and ChatGPT-assisted structured learning.
 
 ---
 
